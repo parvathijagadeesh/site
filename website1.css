@@ -1,0 +1,293 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css");
+
+.nav {
+    background-color: black;
+}
+
+.nav2 {
+    /* border: 1px solid blue; */
+    background-color: black;
+    margin-left: 450px;
+    padding: 10px;
+    color: white;
+}
+
+.div2 {
+    text-align: left;
+    padding: 20px 0;
+    text-decoration: none;
+    /* font-size: 40px; */
+    background-color: black;
+    color: white;
+}
+
+.div2 a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.div3 a {
+    padding-left: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav2,
+.div2,
+.div3 {
+    display: inline-block;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.bodyy{
+    color: white;
+    text-align: center;
+    
+   
+}
+.main{
+    border: 1px solid red;
+    height: 100vh;
+}
+
+.body1 {
+    border: 1px solid white;
+    /* background-repeat: no-repeat; */
+    /* height: fit-content; */
+}
+.body1 img{
+    position: absolute;
+    width: 210vh;
+    height: 100vh;
+}
+.body1 h1 {
+    position: relative;
+   
+}
+.body1 h3{
+    position: relative;
+}
+.body1 a{
+    background-color: white;
+    color: black;
+    
+}
+.text {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+  
+}
+.text a{
+    background-color: white;
+    color: black;
+}
+/* .h3{
+
+} */
+ .type{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+ }
+.WOMEN{
+    background-image: url("https://static.wixstatic.com/media/ea71bb_bd31415cb96b4b6fa27279462a58cb06~mv2_d_4347_3375_s_4_2.jpg/v1/fill/w_374,h_440,fp_0.59_0.29,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ea71bb_bd31415cb96b4b6fa27279462a58cb06~mv2_d_4347_3375_s_4_2.jpg");
+    background-repeat: no-repeat;
+    width:400px;
+    height: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+
+}
+.MEN{
+    background-image: url("https://static.wixstatic.com/media/ea71bb_9dadb8508e8643248cea5e3b26252906~mv2_d_3008_2327_s_2.jpg/v1/fill/w_375,h_440,fp_0.49_0.25,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ea71bb_9dadb8508e8643248cea5e3b26252906~mv2_d_3008_2327_s_2.jpg");
+    background-repeat: no-repeat;
+    width:400px;
+    height: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.SALE{
+    background-image: url("https://static.wixstatic.com/media/ea71bb_70e70d8302154db4a22b713d4bbf3753~mv2_d_4305_3338_s_4_2.jpg/v1/fill/w_375,h_440,fp_0.79_0.24,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ea71bb_70e70d8302154db4a22b713d4bbf3753~mv2_d_4305_3338_s_4_2.jpg");
+    background-repeat: no-repeat;
+    width:400px;
+    height: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+
+}
+.WOMEN,.MEN,.SALE{
+    display: inline-block;
+    /* display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around; */
+
+}
+.brands{
+    display: flex;
+    align-content: center;
+    border: 1px solid black;
+    /* background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20210911/pngtree-group-skating-competition-morning-photographs-of-characters-on-the-ice-rink-image_857021.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* width: 1250px;
+    height: 900%; */
+    /* width: 210vh; */
+    height: 70vh;
+   
+}
+.brands img{
+    position: relative;
+    height: 70vh;
+    width:210vh;
+}
+
+.head{
+    position: absolute;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+.para{
+    position: absolute;
+    text-align: center;
+}
+.pic
+{
+  background-image: url("https://static.wixstatic.com/media/ea71bb_f01834adb3e34eb9ac7666c0f339e4ea~mv2.png/v1/fill/w_220,h_97,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ea71bb_f01834adb3e34eb9ac7666c0f339e4ea~mv2.png");
+  background-repeat: no-repeat;
+  background-color: black;
+}
+.pic img{
+    background-color: black;
+    padding: 50px;
+    
+}
+.arrival{
+    padding-top: 50px;
+}
+.arrival h1{
+  text-align: center;
+}
+.dress{
+    display: flex;
+    justify-content: space-evenly;
+}
+.dress1,.dress2,.dress3,.dress4{
+    display: inline-block;
+
+}
+.drss1,.drss2,.drss3,.drss4{
+    display: flex;
+    justify-content: space-around;
+}
+.insta {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+}
+.insta h1{
+    color: white;
+
+
+}
+.pic1 img{
+    height: 400px;
+    width: 400px;
+}
+.pic2 img{
+    height: 400px;
+    width: 400px;
+}
+.pic3 img{
+    height: 400px;
+    width: 400px;
+}
+.pic4 img{
+    height: 400px;
+    width: 400px;
+}
+.pic5 img{
+    height: 400px;
+    width: 400px;
+}
+.pic6 img{
+    height: 400px;
+    width: 400px;
+}
+.pic1,.pic2,.pic3,.pic4,.pic5,.pic6{
+    display: inline-block;
+    padding: 15px;
+    /* display: flex;
+    justify-content: space-around; */
+}
+.load{
+    text-align: center;
+    padding: 100px;
+}
+.load a{
+    border: 1px solid gray;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    line-height: 20px;
+    
+}
+.form h1{
+    text-align: center;
+    padding: 40px;
+    padding-left: none;
+    line-height: 20px;
+}
+input[type="email"]{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 300px;
+    line-height: 20px;
+}
+input[type="button"]{
+    background-color: white;
+    width: 300px;
+    line-height: 20px;
+}
+.check{
+    line-height: 20px;
+}
+.cpy{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.icons{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.rights{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+}
